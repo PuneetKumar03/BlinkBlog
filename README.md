@@ -43,27 +43,10 @@ A modern, full-stack blog platform built with the MERN Stack 🖥️, enabling c
 
 ## 📁 Folder Structure
 
-BlinkBlog/
-├── client/ # React frontend
-│ └── src/
-│ ├── components/
-│ ├── pages/
-│ ├── context/
-│ └── App.jsx
-│
-├── server/ # Express backend
-│ ├── config/
-│ ├── controllers/
-│ ├── middleware/
-│ ├── models/
-│ ├── routes/
-│ ├── app.js
-│ └── server.js
-│
-├── .env
-└── README.md
+<pre lang="markdown"> ``` BlinkBlog/ ├── client/ # React frontend │ └── src/ │ ├── components/ │ ├── pages/ │ ├── context/ │ └── App.jsx │ ├── server/ # Express backend │ ├── config/ │ ├── controllers/ │ ├── middleware/ │ ├── models/ │ ├── routes/ │ ├── app.js │ └── server.js │ ├── .env └── README.md ``` </pre>
 
-.env
+Create a `.env` file inside the `/server` directory with the following:
+
 PORT=3000
 JWT_SECRET=your_jwt_secret
 ADMIN_EMAIL=your_admin_email
@@ -73,7 +56,6 @@ IMAGEKIT_PUBLIC_KEY=your_imagekit_public_key
 IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
 IMAGEKIT_URL_ENDPOINT=your_imagekit_url_endpoint
 GEMINI_API_KEY=your_gemini_api_key
-
 
 ---
 
